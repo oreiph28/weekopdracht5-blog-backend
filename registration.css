@@ -1,0 +1,51 @@
+        
+ /*==========================================login =====================*/         
+          
+ #header{
+         background-image:url('images/registration.jpg');
+        }       
+    
+ /* Bordered form */
+form.login {
+            display: none; 
+            z-index: 1; /* Sit on top */
+            position:fixed;
+            top:1px;
+            left:1px;
+            border: 6px solid #FF590B;
+            width:445px;
+            opacity:0.9;
+            background-color:white;
+            }     
+
+/* Full-width input fields */
+input[type=text], input[type=password],textarea{
+                                                width: 100%;
+                                                padding: 12px 20px;
+                                                margin: 8px 0;
+                                                display: inline-block;
+                                                border: 1px solid #ccc;
+                                                box-sizing: border-box;
+                                                }
+
+/* Set a style for all buttons */
+button.button_login {
+                     background-color: #FF590B;
+                     color: white;
+                     padding: 14px 20px;
+                     margin: 8px 0;
+                     border: none;
+                     cursor: pointer;
+                     width: 100%;
+                    }
+
+.container {
+            padding: 16px;
+           }
+
+ #submit{
+        position:relative;
+        left:250px;
+        top:70px;
+        width:150px;
+        }        

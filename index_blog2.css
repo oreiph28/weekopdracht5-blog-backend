@@ -1,0 +1,189 @@
+
+   body{  
+        background-color:#A2A2A2;
+        background-image:url('images/wallpaper4.jpg');
+        background-size:cover;
+        size:1360px 968px;
+        max-height:768px;
+       }
+
+#header{
+        background-image:url('images/header.jpg');
+        background-position:-18px;
+        position:absolute;
+        top:-5px;
+        left:-8px;
+        margin:1px;
+        height:150px;
+        color:white;
+        position:relative;
+        border:6px; 
+        border-style:solid;
+        border-color:#FF8D2E;
+        border-radius:0%;
+        opacity:0.8;
+        width:100%;
+        }
+
+#footer{ 
+        background-image:url('images/banner.jpg');
+        position:absolute;
+        top:-660px;
+        left:-8px;
+        margin:1px;
+        height:140px;
+        color:white;
+        position:relative;
+        border:6px;
+        border-style:solid;
+        border-color:#FF8D2E;
+        border-radius:0%;
+        opacity:0.85;
+        width:100%;
+        }
+    
+ /*==========================================login =====================*/         
+ 
+ /* Bordered form */
+form.login {
+            display: none; 
+            z-index: 1; /* Sit on top */
+            position:fixed;
+            top:1px;
+            left:1px;
+            border: 6px solid #FF590B;
+            width:430px;
+            opacity:0.9;
+            background-color:white;
+            }     
+
+/* Full-width input fields */
+input[type=text], input[type=password],textarea{
+                                                width: 100%;
+                                                padding: 12px 20px;
+                                                margin: 8px 0;
+                                                display: inline-block;
+                                                border: 1px solid #ccc;
+                                                box-sizing: border-box;
+                                               }
+
+/* Set a style for all buttons */
+button.button_login {
+                     background-color: #FF590B;
+                     color: white;
+                     padding: 14px 20px;
+                     margin: 8px 0;
+                     border: none;
+                     cursor: pointer;
+                     width: 100%;
+                    }
+
+.container {
+            padding: 16px;
+           }
+
+  #submit{
+          position:relative;
+          left:250px;
+          top:70px;
+          width:150px;
+         }        
+
+       /*topic panel*/     
+ #text3 {
+         text-align:center;
+         position:relative;
+         left:500px;
+         top:25px;
+         background-color:white;
+         width:400px;
+         border:6px;
+         border-style:solid;
+         border-color:#FF8D2E;
+         border-radius:20%;
+         }
+                   
+   /* BLOG FORM*/
+form.blog{
+          position:relative;
+          left:250px;
+          top:-50px;
+          background-image:url('images/wall_blog.jpg');
+          background-repeat:no-repeat;
+          background-color:#FFF7EB;
+          background-size:cover;
+          background-position:center;
+          border-style:solid;
+          border-radius:20%;
+          border-color:#FF8D2E;
+          border-width:8px;
+          opacity:0.9;
+          margin:10%;
+          width:45%;
+          height:430px;
+          font-family:fantasy;
+          color:#070012;
+          }
+          
+table.table{
+            position:relative;
+            left:45px;
+            top:0px;
+            width:450px;
+            }              
+          
+          
+#submit{
+        position:relative;
+        left:145px;
+        top:-5px;
+        width:87px;
+        }        
+      
+#file{
+      position:relative;
+      left:145px;
+      top:1px;
+      width:150px;
+      }
+      
+      
+ #blog{
+       text-align:center;
+       position:relative;
+       background-image:url('images/wall_blog.jpg');
+       background-repeat:no-repeat;
+       background-color:#FFF7EB;
+       background-size:cover;
+       width:950px;
+       left:150px;
+       top:0px;
+       border:8px;
+       margin:4px;
+       padding:12px;
+       border-style:solid;
+       border-color:#FF8D2E;
+       border-radius:20%;
+       }
+         
+#blog2{
+       font-size:13px;
+       font-family:sans-serif;
+       text-align:center;
+       position:relative;
+       background-image:url('images/wall_blog2.jpg');
+       background-repeat:no-repeat;
+       background-color:#FFF7EB;
+       background-size:cover;
+       width:1000px;
+       left:200px;
+       top:20px;
+       border:8px;
+       margin:4px;
+       padding:30px;
+       border-style:solid;
+       border-color:#FF8D2E;
+       border-radius:20%;
+       }
+         
+        

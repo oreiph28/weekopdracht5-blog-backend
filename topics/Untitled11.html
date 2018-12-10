@@ -1,0 +1,241 @@
+  <!-- ===========================================================================================
+  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  ============================================================================================= -->
+  
+  
+ 
+ 
+   <?php
+$servername = "localhost";
+$username = "oreiph";
+$password = "1771128903";
+//$dbname = "myblog";
+$dbname = "oreiph_blog";
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+   if($conn->connect_errno){
+                            echo "Connection failed " . $conn->connect_error; 
+                            exit();
+                           }
+
+//$sqlCommand ="SELECT * FROM news ORDER BY ID DESC LIMIT 4";
+  $sqlCommand ="SELECT * FROM blog ORDER BY ID DESC LIMIT 4";
+
+$sqlUitvoer	= mysqli_query($conn,$sqlCommand);
+
+if ($sqlUitvoer->num_rows>0){
+
+         while ($row = mysqli_fetch_array($sqlUitvoer)) {
+      
+      	echo "<p id='blog'>"."<img src='images/".$row['file']."' >";
+		echo "<br>".$row['name']."<br>";
+		echo $row['title']."<br>";
+		echo $row['email']."<br>";
+      	echo $row['blog']."</p>";
+     
+    }}
+    				   
+echo "connected to server";
+
+?> 
+   
+ 
+ 
+  
+
+  
+  <!-- ===========================================================================================
+  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  ============================================================================================= -->  
+
+   <script type="text/javascript">
+ function myNews(){
+ 
+ 
+  document.getElementById("text3").innerHTML = "NEWS";
+var result="<?php news1();?>";
+document.getElementById("blog").innerHTML = result;
+ } 
+</script> 
+
+
+
+  <?php
+function news1() {
+$servername = "localhost";
+$username = "oreiph";
+$password = "1771128903";
+$dbname = "myblog";
+
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+   if($conn->connect_errno){
+                            echo "Connection failed " . $conn->connect_error; 
+                            exit();
+                           }
+
+$sqlCommand ="SELECT * FROM news ORDER BY ID DESC LIMIT 4";
+
+
+$sqlUitvoer	= mysqli_query($conn,$sqlCommand);
+
+if ($sqlUitvoer->num_rows>0){
+
+         while ($row = mysqli_fetch_array($sqlUitvoer)) {
+      
+      	echo "<p id='blog'>"."<img src='images/".$row['file']."' >";
+		echo "<br>".$row['name']."<br>";
+		echo $row['title']."<br>";
+		echo $row['email']."<br>";
+      	echo $row['blog']."</p>";
+     
+    }}
+    				   
+echo "connected to server";
+
+}
+?>
+  
+  
+<!--  =======================================politics============================ -->
+
+   <script type="text/javascript">
+ function myPolitics(){
+  
+  document.getElementById("text3").innerHTML = "POLITICS";
+var result="<?php politics1();?>";
+document.getElementById("blog").innerHTML = result;
+ } 
+</script> 
+
+
+
+  <?php
+function politics1() {
+$servername = "localhost";
+$username = "oreiph";
+$password = "1771128903";
+$dbname = "myblog";
+
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+   if($conn->connect_errno){
+                            echo "Connection failed " . $conn->connect_error; 
+                            exit();
+                           }
+
+$sqlCommand ="SELECT * FROM politics ORDER BY ID DESC LIMIT 4";
+
+
+$sqlUitvoer	= mysqli_query($conn,$sqlCommand);
+
+if ($sqlUitvoer->num_rows>0){
+
+         while ($row = mysqli_fetch_array($sqlUitvoer)) {
+      
+      	echo "<p id='blog'>"."<img src='images/".$row['file']."' >";
+		echo "<br>".$row['name']."<br>";
+		echo $row['title']."<br>";
+		echo $row['email']."<br>";
+      	echo $row['blog']."</p>";
+     
+    }}
+    				   
+echo "connected to server";
+
+}
+?>
+  
+  
+ <!--  =======================================sport============================ -->
+
+   <script type="text/javascript">
+ function mySport(){
+  
+  document.getElementById("text3").innerHTML = "SPORT";
+var result="<?php sport1();?>";
+document.getElementById("blog").innerHTML = result;
+ } 
+</script> 
+
+
+  <?php
+function sport1() {
+$servername = "localhost";
+$username = "oreiph";
+$password = "1771128903";
+$dbname = "myblog";
+
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+   if($conn->connect_errno){
+                            echo "Connection failed " . $conn->connect_error; 
+                            exit();
+                           }
+
+$sqlCommand ="SELECT * FROM sport ORDER BY ID DESC LIMIT 4";
+
+
+$sqlUitvoer	= mysqli_query($conn,$sqlCommand);
+
+if ($sqlUitvoer->num_rows>0){
+
+         while ($row = mysqli_fetch_array($sqlUitvoer)) {
+      
+      	echo "<p id='blog'>"."<img src='images/".$row['file']."' >";
+		echo "<br>".$row['name']."<br>";
+		echo $row['title']."<br>";
+		echo $row['email']."<br>";
+      	echo $row['blog']."</p>";
+     
+    }}
+    				   
+echo "connected to server";
+
+}
+?> 
+  
+  
+ <!--  =======================================Culture============================ -->
+
+   <script type="text/javascript">
+ function myCulture(){
+  
+  document.getElementById("text3").innerHTML = "CULTURE";
+var result="<?php culture1();?>";
+document.getElementById("blog").innerHTML = result;
+ } 
+</script> 
+
+
+
+  <?php
+function culture1() {
+$servername = "localhost";
+$username = "oreiph";
+$password = "1771128903";
+$dbname = "myblog";
+
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+   if($conn->connect_errno){
+                            echo "Connection failed " . $conn->connect_error; 
+                            exit();
+                           }
+
+$sqlCommand ="SELECT * FROM culture ORDER BY ID DESC LIMIT 4";
+
+
+$sqlUitvoer	= mysqli_query($conn,$sqlCommand);
+
+if ($sqlUitvoer->num_rows>0){
+
+         while ($row = mysqli_fetch_array($sqlUitvoer)) {
+      
+      	echo "<p id='blog'>"."<img src='images/".$row['file']."' >";
+		echo "<br>".$row['name']."<br>";
+		echo $row['title']."<br>";
+		echo $row['email']."<br>";
+      	echo $row['blog']."</p>";
+     
+    }}
+    				   
+echo "connected to server";
+
+}
+?> 

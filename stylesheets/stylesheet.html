@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+    function setStyleSheet(url){
+       var stylesheet = document.getElementById("stylesheet");
+       stylesheet.setAttribute('href', url);
+    }
+    </script>
+
+    <link id="stylesheet" rel="stylesheet" type="text/css" href="stylesheet1.css"/>
+</head>
+<body>
+<input type="radio" name="" value="" onselect="setStyleSheet('stylesheet1.css')">
+<button onclick="setStyleSheet('stylesheet1.css')" >small</button>
+<button onclick="setStyleSheet('stylesheet2.css')" >larg</button>
+<button onclick="setStyleSheet('stylesheet3.css')" >larger</button>
+
+<font color="#3129FF">
+    <a onclick="setStyleSheet('stylesheet1.css')" >Style 1</a>
+    <a onclick="setStyleSheet('stylesheet2.css')" >Style 2</a>
+	    <a onclick="setStyleSheet('stylesheet3.css')" >Style 3</a>
+		</font>
+
+
+  </body>
+</html>

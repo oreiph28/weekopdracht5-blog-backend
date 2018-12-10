@@ -1,0 +1,184 @@
+
+body{  
+     background-color:#A2A2A2;
+     background-image:url('images/wallpaper4.jpg');
+     background-size:100%;
+     size:1360px 968px;
+     max-height:768px;
+    }
+
+#header{
+        background-image:url('images/header.jpg');
+        background-position:-18px;
+        position:absolute;
+        top:-5px;
+        left:-8px;
+        margin:1px;
+        height:150px;
+        color:white;
+        position:relative;
+        border:6px; 
+        border-style:solid;
+        border-color:#FF8D2E;
+        border-radius:0%;
+        opacity:0.8;
+        width:100%;
+        }
+
+#footer{ 
+        background-image:url('images/contact_footer.jpg');
+        background-size:cover;
+        margin:1px;
+        height:400px;
+        color:white;
+        position:relative;
+        border:6px;
+        border-style:solid;
+        border-color:#FF8D2E;
+        border-radius:0%;
+        width:100%;
+        }
+        
+          
+ #text3 {
+         position:relative;
+         left:475px;
+         top:25px;
+         background-color:white;
+         width:400px;
+         border:6px;
+         border-style:solid;
+         border-color:#FF8D2E;
+         border-radius:20%;
+         }
+         
+/*=====================================*/
+
+div.container{
+              background-color:white;
+              padding:8px;
+              width:610px;
+              border-width:6px;
+              border-style:solid;
+              border-color:#FF8D2E;
+              }
+
+#contact_name{
+               width:550px;
+              }      
+ 
+#contact_email{
+                width:550px;
+               }    
+  
+#contact_subject{
+                 width:550px;
+                }       
+              
+.registerbtn:hover {
+                    opacity: 1;
+                   }
+
+/* Set a style for the submit button */
+.registerbtn {
+             background-color:#FF8D2E;
+             color: white;
+             padding: 16px 20px;
+             margin: 8px 0;
+             border: none;
+             cursor: pointer;
+             width: 100%;
+             opacity: 0.9;
+             }
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+   }
+
+input[type=text]:focus, input[type=password]:focus {
+                                                    background-color: #ddd;
+                                                    outline: none;
+                                                    }
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+                                        width: 100%;
+                                        padding: 15px;
+                                        margin: 5px 0 22px 0;
+                                        display: inline-block;
+                                        border: none;
+                                        background: #f1f1f1;
+                                       }
+    
+ /*==========================================login =====================*/           
+div.container1{
+              background-color:white;
+              padding:8px;
+              width:408px;
+              border-width:6px;
+              border-style:solid;
+              border-color:#FF8D2E;
+              }       
+            
+ /* Bordered form */
+form.login {
+            display: none; 
+            z-index: 1; /* Sit on top */
+            position:fixed;
+            top:1px;
+            left:1px;
+            border: 6px solid #FF590B;
+            width:430px;
+            opacity:0.9;
+            background-color:white;
+            }     
+
+/* Full-width input fields */
+input[type=text], input[type=password],textarea{
+                                                width: 100%;
+                                                padding: 12px 20px;
+                                                margin: 8px 0;
+                                                display: inline-block;
+                                                border: 1px solid #ccc;
+                                                box-sizing: border-box;
+                                                }
+
+/* Set a style for all buttons */
+button.button_login {
+                     background-color: #FF590B;
+                     color: white;
+                     padding: 14px 20px;
+                     margin: 8px 0;
+                     border: none;
+                     cursor: pointer;
+                     width: 100%;
+                     }
+
+.container {
+            padding: 16px;
+           }
+
+#submit{
+        position:relative;
+        left:250px;
+        top:70px;
+        width:150px;
+        }        
+      
+#file{
+      position:relative;
+      left:250px;
+      top:70px;
+      width:150px;
+      }
+       
+div.topic_t{
+            font-size:24px;
+            background-color:white;
+           }
+
+#hr{
+    border-top: 1px solid black;
+   } 
+  

@@ -1,0 +1,173 @@
+
+body{  
+     background-color:#A2A2A2;
+     background-image:url('images/wallpaper4.jpg');
+     background-size:100%;
+     max-height:768px;
+     }
+
+
+ /*header*/
+#header{
+        background-image:url('images/header.jpg');
+        position:relative;
+        top:-5px;
+        left:-8px;
+        margin:1px;
+        height:150px;
+        border:6px; 
+        border-style:solid;
+        border-color:#FF8D2E;
+        width:100%;
+        }    
+     
+     /*administrator text*/
+#text3{
+       text-align:center;
+       position:relative;
+       left:350px;
+       top:25px;
+       background-color:white;
+       width:400px;
+       border:6px;
+       border-style:solid;
+       border-color:#FF8D2E;
+       border-radius:20%;
+       }  
+
+  /*User panel text*/
+#panel_T{
+         position:relative;          
+         text-align:center;
+         top:-5px;
+         left:-30px;
+         color:white;
+         }        
+         
+      
+  /*Panel background*/
+ div.admin_Back{
+                position:relative;
+                top:50px;
+                left:-5px;
+                background-color:black;
+                width:80%;
+                height:1350px;
+                border-width:6px;
+                border-color:gray;
+                border-style:solid;
+                z-index:-1;
+                }
+  
+  /*create panel*/
+ div.adminMenu{
+ 
+               position:absolute;
+               top:450px;
+               left:20px;
+               background-color:#838383;
+               width:300px;
+               height:200px;
+               padding:6px;
+               border-width:8px;
+               border-style:solid;
+               border-color:#FF8D2E;
+               }
+  
+  /*read panel*/
+div.adminMenu1{
+               position:absolute;
+               top:450px;
+               left:350px;
+               background-color:#838383;
+               width:300px;
+               height:500px;
+               padding:6px;
+               border-width:8px;
+               border-style:solid;
+               border-color:#FF8D2E;
+               }
+
+               
+   /*update panel*/
+div.adminMenu2{
+               position:absolute;
+               top:450px;
+               left:710px;
+               background-color:#838383;
+               width:300px;
+               height:500px;
+               padding:6px;
+               border-width:8px;
+               border-style:solid;
+               border-color:#FF8D2E;
+               }
+  
+  /*delete panel*/
+div.adminMenu3{
+               position:absolute;
+               top:700px;
+               left:20px;
+               background-color:#838383;
+               width:300px;
+               height:500px;
+               padding:6px;
+               border-width:8px;
+               border-style:solid;
+               border-color:#FF8D2E;
+               }
+
+  
+  /*left panel*/
+div.adminMenu5{
+               position:relative;
+               top:112px;
+               left:345px;
+               background-color:#838383;
+               width:300px;
+               height:500px;
+               padding:6px;
+               border-width:8px;
+               border-style:solid;
+               border-color:#FF8D2E;
+               }
+  
+    
+  /*right panel*/
+div.adminMenu4{
+               position:absolute;
+               top:600px;
+               left:710px;
+               background-color:#838383;
+               width:300px;
+               height:500px;
+               padding:6px;
+               border-width:8px;
+               border-style:solid;
+               border-color:#FF8D2E;
+              }
+  
+/*buttons style*/
+button{
+       position:relative;
+       left:100px;
+       width:100px;
+      }
+      
+#databases{
+position:relative;
+left:35px;
+padding:8px;
+border-style:solid;
+border-width:4px;
+border-color:black;
+background-color:white;
+height:100px;
+width:200px;
+ }
+ 
+ #tables{
+ background-color:white;
+ height:100px;
+ width:200px;
+  }
